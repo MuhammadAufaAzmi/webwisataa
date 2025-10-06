@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - Kepulauan Seribu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6e695e;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff0a3db;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .header {
+            background-color: #bcac7b;
+            color: black;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        .nav {
+            width: 25%;
+            background-color: #bcac7b;
+            text-align: center;
+            vertical-align: top;
+            padding-top: 30px;
+        }
+
+        .nav a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        .nav a:hover {
+            background-color: #bcac7b;
+            color: black;
+        }
+
+        .content {
+            width: 75%;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .content h2 {
+            font-weight: bold;
+            color:black;
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            justify-items: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 220px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: #bcac7b;
+            color: black;
+            text-align: center;
+            font-size: 14px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+  <table border="1">
+     <tr>
+            <td colspan="2" class="header">
+                CONTACT KEPULAUAN SERIBU
+            </td>
+        </tr>
+    <tr>
+      <td class="nav">
+                <a href="Beranda.html">Beranda</a>
+                <a href="Gallery.html">Galeri</a>
+                <a href="Contact.html">Kontak</a>
+      </td>
+      <td class="content">
+        <h1>Kontak Kami</h1>
+        <div class="kontak">
+          <p>Hubungi kami untuk informasi lebih lanjut:</p>
+          <p>
+            123-345-4321<br>
+            789-4566-123<br>
+            Instagram: <a href="https://instagram.com/kepulauanseribu" target="_blank">@kepulauanseribu</a>
+          </p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+            <td colspan="2" class="footer">
+                &copy; 2025 Kepulauan Seribu 
+            </td>
+        </tr>
+  </table>
+</body>
+</html>
